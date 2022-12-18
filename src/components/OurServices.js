@@ -7,6 +7,7 @@ import Figure from 'react-bootstrap/Figure';
 import './OurServices.css';
 import about from '../images/about.jpg';
 
+const serviceMainText = 'Mit unserem Ansatz, niedrig hängende Früchte zu nutzen, um eine ungefähre Aktivität mit Mehrwert für einen Betatest zu identifizieren, können wir die Arbeit immer erledigen. Überwinden Sie die digitale Kluft mit zusätzlichen Klickzahlen.';
 const servicesData = [
     {
         id: '1',
@@ -43,7 +44,7 @@ const OurServices = () => {
                 <Row>
                     <Col sm={12}>
                         <p>
-                        Mit unserem Ansatz, niedrig hängende Früchte zu nutzen, um eine ungefähre Aktivität mit Mehrwert für einen Betatest zu identifizieren, können wir die Arbeit immer erledigen. Überwinden Sie die digitale Kluft mit zusätzlichen Klickzahlen.
+                            {serviceMainText}
                         </p>
                     </Col>
                     {
