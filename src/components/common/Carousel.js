@@ -4,6 +4,8 @@ import banner1 from '../../images/banner1.jpg';
 import banner2 from '../../images/banner2.jpg';
 import banner3 from '../../images/banner3.jpg';
 
+import './Carousel.css';
+
 const CarouselBanner = () => {
   return (
     <div>
@@ -15,7 +17,7 @@ const CarouselBanner = () => {
             alt="Expand your Business"
           />
           <Carousel.Caption>
-            <h3>Expand your Business</h3>
+            <h1>Expand your Business</h1>
             <p>with our Services</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -26,7 +28,7 @@ const CarouselBanner = () => {
             alt="Enhance your Organization's Performance"
           />
           <Carousel.Caption>
-            <h3>Enhance your Organization's Performance</h3>
+            <h1>Enhance your Organization's Performance</h1>
             <p>with our Services</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -37,7 +39,7 @@ const CarouselBanner = () => {
             alt="Your Consulting Partner"
           />
           <Carousel.Caption>
-            <h3>Your Consulting Partner</h3>
+            <h1>Your Consulting Partner</h1>
             <p>
               for your growth
             </p>
