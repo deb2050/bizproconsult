@@ -7,14 +7,21 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-    <section>
+    <footer>
         <Container>
             <Row>
-                <Col sm={12}>footer</Col>
+                <Col sm={4}>
+                    <h3>Our Services</h3>
+                </Col>
+                <Col sm={4}>
+                    <h3>Contact Us</h3>
+                </Col>
+                <Col sm={4}>
+                    <h3>About Us</h3>
+                </Col>
             </Row>
-            <hr />
         </Container>
-    </section>
+    </footer>
     )
 }
 
