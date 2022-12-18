@@ -16,7 +16,7 @@ const Header = () => {
                 <img src={logo} width="210" height="50" alt="Bizproconsult" />
             </Col>
             <Col sm={10}>
-            <Nav className="justify-content-end" activeKey="/home">
+            <Nav className="justify-content-end">
                 <Nav.Item>
                     <Nav.Link href="/home">Home</Nav.Link>
                 </Nav.Item>
