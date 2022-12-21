@@ -10,7 +10,7 @@ const aboutMainText = 'Unsere Leidenschaft ist es, unsere Kunden bestmöglich zu
 const aboutMainText2 = 'Wir bringen Win-Win-Überlebensstrategien an den Tisch, um eine proaktive Vorherrschaft zu gewährleisten. Am Ende des Tages ist eine neue Normalität, die sich aus der Generation X entwickelt hat, auf dem Weg zu einer rationalisierten Cloud-Lösung. Nutzergenerierte Inhalte in Echtzeit werden mehrere Berührungspunkte für das Offshoring haben.';
 const About = () => {
     return (
-        <section className="mt-20">
+        <section id="about" className="mt-20">
             <Container>
                 <h2>Know About Us</h2>
                 <Row>

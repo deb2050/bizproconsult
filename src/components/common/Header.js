@@ -21,7 +21,7 @@ const Header = () => {
                     <Nav.Link href="/home">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-2">About Us</Nav.Link>
+                    <Nav.Link href="#about">About Us</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link eventKey="link-1">Our Services</Nav.Link>

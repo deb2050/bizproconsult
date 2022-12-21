@@ -9,7 +9,7 @@ import Contact from './Contact';
 import Footer from './common/Footer';
 
 import './App.css';
-
+// Our Services
 const servicesData = [
   {
       id: '1',
@@ -48,7 +48,7 @@ function App() {
       <OurTeam />
       <OurTestimonials />
       <Contact />
-      <Footer />
+      <Footer servicesData={servicesData} />
     </div>
   );
 }
