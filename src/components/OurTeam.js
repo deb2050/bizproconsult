@@ -53,7 +53,6 @@ const OurTeam = () => {
                         </p>
                     </Col>
                 </Row>
-                <hr />
             </Container>
         </section>
     )

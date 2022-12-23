@@ -9,7 +9,13 @@ const Contact = () => {
             <Container>
             <h2>Contact Us</h2>
                 <Row>
-                    <Col sm={12}>1 of 1</Col>
+                    <Col sm={8}>
+                        <div>
+                            <h4>Bizproconsult</h4>
+                            <p>Rosenheimer Platz 112b, Munich</p>
+                        </div>
+                    </Col>
+                    <Col sm={4}>1 of 1</Col>
                 </Row>
                 <hr />
             </Container>
