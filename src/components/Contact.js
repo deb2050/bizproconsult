@@ -2,6 +2,7 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import LocationMap from '../components/Map';
 
 const Contact = () => {
     return (
@@ -11,11 +12,15 @@ const Contact = () => {
                 <Row>
                     <Col sm={8}>
                         <div>
-                            <h4>Bizproconsult</h4>
-                            <p>Rosenheimer Platz 112b, Munich</p>
+                            <LocationMap />
                         </div>
                     </Col>
-                    <Col sm={4}>1 of 1</Col>
+                    <Col sm={4}>
+                        <h4>Ansprechpartnerin - Sandra Heitmeier</h4>
+                        <h6>Rosenheimer Platz 112b,<br />81669, Munich</h6>
+                        <h6>089 6090290</h6>
+                        <h6>info@bizproconsult</h6>
+                    </Col>
                 </Row>
                 <hr />
             </Container>
