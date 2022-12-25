@@ -8,7 +8,7 @@ const Contact = () => {
     return (
         <section id="contact">
             <Container>
-            <h2>Contact Us</h2>
+            <h2>Kontakt</h2>
                 <Row>
                     <Col sm={8}>
                         <div>

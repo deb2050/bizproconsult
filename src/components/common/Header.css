@@ -1,6 +1,11 @@
 header {
     padding: 5px 10px;
     border: 1px solid #ccc;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    top: 0;
+    z-index: 100;
 }
 .nav-item a {
     color: #1c2570;

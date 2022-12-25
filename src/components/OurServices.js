@@ -25,17 +25,8 @@ const OurServices = (props) => {
                         props.servicesData.map((service) => {
                             return (
                                 <Col sm={4} key={service.id}>
-                                <Figure>
-                                <Figure.Image
-                                    width={416}
-                                    height={278}
-                                    alt={service.heading}
-                                    src={about} // @todo update img src
-                                />
-                                <Figure.Caption>                        
+                                    <i className={service.icon}></i>
                                     <h3>{service.heading}</h3>
-                                </Figure.Caption>
-                                </Figure>
                                     <p>
                                         {service.serviceText}
                                     </p>
