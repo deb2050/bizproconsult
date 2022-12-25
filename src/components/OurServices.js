@@ -12,9 +12,9 @@ const serviceMainText = 'Mit unserem Ansatz, niedrig hängende Früchte zu nutze
 
 const OurServices = (props) => {
     return (
-        <section>
+        <section id="our-services">
             <Container>
-            <h2>Our Services</h2>
+            <h2>Unsere Dienstleistungen</h2>
                 <Row>
                     <Col sm={12}>
                         <p>

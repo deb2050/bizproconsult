@@ -1,8 +1,9 @@
 .container-fluid {
-    --bs-gutter-x: 0!important;
+    --bs-gutter-x: 0 !important;
 }
+
 .testimonial {
-    min-height: 400px; 
+    min-height: 400px;
     background: url(../images/parallex-bg.jpg) center center;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -10,6 +11,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .testimonial h3 {
     font-size: 45px;
     text-align: center;
@@ -20,6 +22,7 @@
     padding: 10px;
     text-shadow: 0 0 20px #333;
 }
+
 .testimonial .two {
     text-align: center;
     color: #fff;
@@ -27,5 +30,7 @@
     font-weight: bold;
     text-shadow: 0 0 30px #000;
     position: relative;
-    top: 100px;
+    top: 90px;
+    padding: 0 30px;
+    border-right: 1px solid #fff;
 }

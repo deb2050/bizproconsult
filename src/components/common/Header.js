@@ -13,27 +13,29 @@ const Header = () => {
         <Container fluid>
         <Row>
             <Col sm={2}>
-                <img src={logo} width="210" height="50" alt="Bizproconsult" />
+                <a href="/">
+                    <img src={logo} width="210" height="50" alt="Bizproconsult" />
+                </a>
             </Col>
             <Col sm={10}>
             <Nav className="justify-content-end">
                 <Nav.Item>
-                    <Nav.Link href="/home">Home</Nav.Link>
+                    <Nav.Link href="/">Startseite</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="#about">About Us</Nav.Link>
+                    <Nav.Link href="#about">Über uns</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-1">Our Services</Nav.Link>
+                    <Nav.Link href="#our-services">Unsere Dienstleistungen</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-2">Our Team</Nav.Link>
+                    <Nav.Link href="#ourteam">Unser Team</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-1">Testimonials</Nav.Link>
+                    <Nav.Link href="#testimonials">Referenzen</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-2">Contact Us</Nav.Link>
+                    <Nav.Link href="#contact">Kontakt</Nav.Link>
                 </Nav.Item>
             </Nav>
             </Col>

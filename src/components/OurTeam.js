@@ -13,9 +13,9 @@ import team5 from '../images/team5.jpg';
 
 const OurTeam = () => {
     return (
-        <section id='our-team'>
+        <section id="ourteam">
             <Container>
-            <h2>Know Our Team</h2>
+            <h2>Unser Team kennenlernen</h2>
                 <Row>
                     <Col sm={3}>
                         <img src={team5} width="300" height="300" alt="Roland Wittphal" className='border-img' />

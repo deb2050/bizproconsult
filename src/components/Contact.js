@@ -6,7 +6,7 @@ import LocationMap from '../components/Map';
 
 const Contact = () => {
     return (
-        <section>
+        <section id="contact">
             <Container>
             <h2>Contact Us</h2>
                 <Row>
@@ -22,7 +22,7 @@ const Contact = () => {
                         <h6>info@bizproconsult</h6>
                     </Col>
                 </Row>
-                <hr />
+                <br />
             </Container>
         </section>
     )

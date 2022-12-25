@@ -6,24 +6,25 @@ import about from '../images/about.jpg';
 
 import './About.css';
 
-const aboutMainText = 'Unsere Leidenschaft ist es, unsere Kunden bestmöglich zu unterstützen und dabei ständig zu wachsen, zu lernen und zu innovieren. Mit unserer branchenübergreifenden Kompetenz bieten wir unseren Kunden eine zuverlässigere Lieferkette und Vertrauen in die Langlebigkeit ihrer Programme.';
-const aboutMainText2 = 'Wir bringen Win-Win-Überlebensstrategien an den Tisch, um eine proaktive Vorherrschaft zu gewährleisten. Am Ende des Tages ist eine neue Normalität, die sich aus der Generation X entwickelt hat, auf dem Weg zu einer rationalisierten Cloud-Lösung. Nutzergenerierte Inhalte in Echtzeit werden mehrere Berührungspunkte für das Offshoring haben.';
-const About = () => {
+const About = (props) => {
     return (
         <section id="about" className="mt-20">
             <Container>
-                <h2>Know About Us</h2>
+                <h2>Wissen über uns</h2>
                 <Row>
                     <Col sm={4}>
                         <img src={about} alt="About Us" width="416" height="278" className="border-img" />
                     </Col>
                     <Col sm={8}>
-                    <p>
-                        {aboutMainText}
-                    </p>
-                    <p>
-                        {aboutMainText2}
-                    </p>
+                        {
+                            props.aboutTexts.map((text, index) => {
+                                return (
+                                    <p key={index}>
+                                        {text.text}
+                                    </p>
+                                )
+                            })
+                        }
                     </Col>
                 </Row>
                 <hr />

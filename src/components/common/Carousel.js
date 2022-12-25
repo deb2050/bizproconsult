@@ -14,34 +14,34 @@ const CarouselBanner = () => {
           <img
             className="d-block w-100"
             src={banner1} width="2000" height="500"
-            alt="Expand your Business"
+            alt="Erweitern Sie Ihr Geschäft"
           />
           <Carousel.Caption>
-            <h1>Expand your Business</h1>
-            <p>with our Services</p>
+            <h1>Erweitern Sie Ihr Geschäft</h1>
+            <p>mit unseren Dienstleistungen</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
           <img
             className="d-block w-100"
             src={banner2} width="2000" height="500"
-            alt="Enhance your Organization's Performance"
+            alt="Verbessern Sie die Leistung Ihrer Organisation"
           />
           <Carousel.Caption>
-            <h1>Enhance your Organization's Performance</h1>
-            <p>with our Services</p>
+            <h1>Verbessern Sie die Leistung Ihrer Organisation</h1>
+            <p>mit unseren Dienstleistungen</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
             src={banner3} width="2000" height="500"
-            alt="Your Consulting Partner"
+            alt="Ihr Beratungspartner"
           />
           <Carousel.Caption>
-            <h1>Your Consulting Partner</h1>
+            <h1>Ihr Beratungspartner</h1>
             <p>
-              for your growth
+              für Ihr Wachstum
             </p>
           </Carousel.Caption>
         </Carousel.Item>
