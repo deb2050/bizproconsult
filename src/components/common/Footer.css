@@ -23,3 +23,7 @@ footer .footer-services li {
 footer .footer-services li::before{
     content: '☞ ';
 }
+footer a {
+    color: #fff;
+    text-decoration: none;
+}

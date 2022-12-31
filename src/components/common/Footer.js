@@ -26,10 +26,12 @@ const Footer = (props) => {
                 </Col>
                 <Col sm={4}>
                     <h3>Kontakt</h3>
-                        <h6>Ansprechpartnerin - Sandra Heitmeier</h6>
+                        <h6>Ansprechpartner - Roland Wittphal</h6>
                         <h6>Rosenheimer Platz 112b,<br />81669, Munich</h6>
                         <h6>089 6090290</h6>
-                        <h6>info@bizproconsult</h6>
+                        <h6>
+                            <a href="mailto:info@bizproconsult.de?subject=Allgemeine%20Fragen">Kontaktieren Sie uns per E-Mail</a>
+                        </h6>
                 </Col>
                 <Col sm={4}>
                     <h3>Über uns</h3>

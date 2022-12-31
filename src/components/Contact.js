@@ -4,6 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import LocationMap from '../components/Map';
 
+import './Contact.css';
+
 const Contact = () => {
     return (
         <section id="contact">
@@ -16,10 +18,12 @@ const Contact = () => {
                         </div>
                     </Col>
                     <Col sm={4}>
-                        <h4>Ansprechpartnerin - Sandra Heitmeier</h4>
+                        <h4>Ansprechpartner - Roland Wittphal</h4>
                         <h6>Rosenheimer Platz 112b,<br />81669, Munich</h6>
                         <h6>089 6090290</h6>
-                        <h6>info@bizproconsult</h6>
+                        <h6>
+                            <a href="mailto:info@bizproconsult.de?subject=Allgemeine%20Fragen">Kontaktieren Sie uns per E-Mail</a>
+                        </h6>
                     </Col>
                 </Row>
                 <br />
